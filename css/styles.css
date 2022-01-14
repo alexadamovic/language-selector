@@ -3,6 +3,14 @@
 .container {
   background-color: rgb(255, 212, 95);
   border: solid;
+  margin-top: 2em;
+  padding-top: 2em;
+  margin-bottom: 2em;
+  padding-bottom: 2em;
+}
+
+.jumbotron {
+  border: solid;
 }
 
 p {
@@ -37,10 +45,21 @@ form {
 h1 {
   font-family: 'Russo One';
   font-size: 3em;
+  text-decoration: underline;
   text-align: center;
   background-color: rgb(245, 153, 157);
   padding: 0.5em;
   border: solid ;
+}
+
+h2 {
+  font-family: 'Russo One';
+  font-size: 2.5em;
+  text-align: center;
+  background-color: #e9ecef;
+  padding: 0.5em;
+  border: solid ;
+  margin: 0.5em;
 }
 
 h3 {
@@ -82,9 +101,7 @@ h5 {
 
 img {
   width: 100%;
-}
-
-img#top-image {
+  border-radius: 5%;
   box-sizing: border-box;
   border: solid 5px;
 }

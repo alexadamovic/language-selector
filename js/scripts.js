@@ -8,18 +8,18 @@ $(document).ready(function(){
     const millionaire = $("select#millionaire").val();
     const licks = parseInt($("input#licks").val());
 
-    $(".survey-result").hide();
+    $(".survey-result").fadeOut();
 
     if (numberCombo <= 1000) {
-      $(".language-result-circus").show();
+      $(".language-result-circus").fadeIn();
     } else if (licks >= 1000000 ) {
-      $(".language-result-broke").show();
+      $(".language-result-broke").fadeIn();
     } else if (millionaire === "fifty" ) {
-      $(".language-result-java").show();
+      $(".language-result-java").fadeIn();
     } else if (trueFalseCool === "alsoTrueCool" && millionaire === "phone") {
-      $(".language-result-ruby").show();
+      $(".language-result-ruby").fadeIn();
     } else {
-      $(".language-result-python").show();
+      $(".language-result-python").fadeIn();
     }
   
   });
