@@ -13,18 +13,26 @@
       <h1>Programming Language Suggester</h1>
       <h5>A simple jQuery based survey to help find the programming language that is right for you... forever</h5>
     </div>
-    <h3>Finding the right programming language can be difficult...</h3>
-    <p>There are so many out there! Please take a quick minute to answer the survey questions below and our "Command Office Oracle Leader" (a.k.a COOL) supercomputer will use a series of complex algorithms to determine the perfect language for you. Don't believe me? Well too bad. COOL knows all, and whether you like it or not, you will be forced to use the language that COOL selects for the entirety of your career as a developer. No pressure!</p>
+    <div class="row">
+      <div class="col-7">
+        <h3>Finding the right programming language can be difficult...</h3>
+        <p>There are so many out there! Please take a quick minute to answer the survey questions below and our "Command Office Oracle Leader" (a.k.a COOL) supercomputer will use a series of complex algorithms to determine the perfect language for you. Don't believe me? Well too bad. COOL knows all, and whether you like it or not, you will be forced to use the language that COOL selects for the entirety of your career as a developer. No pressure!</p>
+      </div>
+      <div class="col-5">
+        <img id="top-image" src="https://venturebeat.com/wp-content/uploads/2015/04/Screen-Shot-2015-04-14-at-3.38.26-PM.png?fit=512%2C386&strip=all" alt="Zuckerberg">
+      </div>  
+    </div>  
+
     <form id="coolForm">
       <div class="form-group">
         <label for="numberCombo">Enter your favorite combination of 1's and 0's:</label>
-        <input type="number" class="form-control" id="numberCombo" placeholder="001110001010100">
+        <input type="number" class="form-control" id="numberCombo" placeholder="0011001">
       </div>
       <div class="form-group">
         <label for="trueFalseCool">True or False? I have already realized how much better my life will be after letting COOL make all of my future decisions for me</label>
         <select class="form-control" id="trueFalseCool">
           <option value="trueCool">True</option>
-          <option value="alsoTrueCool">Also True</option>
+          <option value="alsoTrueCool">Also Still True</option>
         </select>        
       </div>
       <div class="form-group">
@@ -45,6 +53,7 @@
       </div>           
       <button type="submit" class="btn btn-dark">Submit... to the almighty power of COOL</button>
     </form>
+
     <div class="language-result-circus survey-result">
       <h2 class="">COOL has processed the data. You didn't even enter enough 1's and 0's. COOL has determined you don't have what it takes to become a developer. Join the circus instead.</h2>
       <img src="https://img.thedailybeast.com/image/upload/c_crop,d_placeholder_euli9k,h_1439,w_2560,x_0,y_0/dpr_1.5/c_limit,w_1044/fl_lossy,q_auto/v1492193992/articles/2014/11/27/we-re-all-carnies-now-why-we-can-t-quit-the-circus/141126-paletta-circus-tease_asotkc" alt="Circus">

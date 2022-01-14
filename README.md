@@ -14,7 +14,7 @@
 
 ## Description
 
-_This humorous survey will help the user find the programming language that is right for them... or else😉. The survey form was created using the bootstrap library for css and the results interpreted using the jQuery library for Javascript. Users are encouraged to submit results multiple times to see all of the branching outcomes, including some "easter egg" outcomes that become more clear after viewing the scripts.js file._
+_This humorous survey will help the user find the programming language that is right for them... or else😉. The survey form was created using the bootstrap library for css and the results interpreted using the jQuery library for Javascript. Users are encouraged to submit results multiple times to see all of the branching outcomes, including some "easter egg" outcomes that become more clear after viewing the code in the scripts.js file._
 
 ## Live Link
 
