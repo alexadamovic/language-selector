@@ -1,13 +1,17 @@
 .language-result-ruby {
-  display: none;
+  display:none;
 }
 
 .language-result-python {
-  display: none;
+  display:none;
 }
 
 .language-result-java {
-  display: none;
+  display:none;
+}
+
+.language-result-circus {
+  display:none;
 }
 
 img {

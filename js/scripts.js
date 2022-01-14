@@ -8,8 +8,9 @@ $(document).ready(function(){
     const millionaire = $("select#millionaire").val();
     const licks = parseInt($("input#licks").val());
 
-
-    console.log(licks)
+    if (numberCombo < 1000000) {
+      $(".language-result-circus").show();
+    }
   
   });
 });
