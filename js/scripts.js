@@ -8,9 +8,11 @@ $(document).ready(function(){
     const millionaire = $("select#millionaire").val();
     const licks = parseInt($("input#licks").val());
 
-    if (numberCombo <= 1000000) {
+    $(".survey-result").hide();
+
+    if (numberCombo <= 1000) {
       $(".language-result-circus").show();
-    } else if (licks >= 1000 ) {
+    } else if (licks >= 1000000 ) {
       $(".language-result-broke").show();
     } else if (millionaire === "fifty" ) {
       $(".language-result-java").show();
