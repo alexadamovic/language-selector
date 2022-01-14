@@ -1,16 +1,63 @@
-@import url('https://fonts.googleapis.com/css2?family=Aldrich&family=Audiowide&family=Major+Mono+Display&family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&family=Audiowide&family=Geo:ital@1&family=Major+Mono+Display&family=Russo+One&display=swap');
 
 .container {
   background-color: rgb(255, 212, 95);
+  border: solid;
+}
+
+p {
+  font-family: 'Geo';
+  font-size: 1.5em;
+  margin: 1em;
+}
+
+figcaption {
+  font-family: 'Geo';
+  font-size: 1.2em;
+  margin: 0.7em;
+}
+
+.bigfont {
+  font-size: 1.3em;
+  font-weight: bolder;
 }
 
 body {
   background-image: url(https://cdn.pixabay.com/photo/2017/10/09/19/37/circuit-2834562_1280.jpg)
 }
 
+form {
+  background-color: rgb(245, 153, 157);
+  font-family: 'Audiowide';
+  padding: 1em;
+  margin: 2em;
+  border: solid;
+}
+
 h1 {
   font-family: 'Russo One';
-  align-items: center;
+  font-size: 3em;
+  text-align: center;
+  background-color: rgb(245, 153, 157);
+  padding: 0.5em;
+  border: solid ;
+}
+
+h3 {
+  font-family: 'Russo One';
+  font-size: 1.5em;
+  text-align: center;
+  background-color: rgb(245, 153, 157);
+  padding: 0.5em;
+  border: solid ;
+  margin: 0.5em;
+}
+
+h5 {
+  font-family: 'Aldrich';
+  font-size: 1.5em;
+  text-align: center;
+  margin-top: 1em;
 }
 
 .language-result-ruby {
@@ -38,7 +85,6 @@ img {
 }
 
 img#top-image {
-  border-radius: 50%;
-  border: solid rgb(245, 131, 245) 10px;
-
+  box-sizing: border-box;
+  border: solid 5px;
 }
