@@ -5,11 +5,34 @@
   <link href="css/styles.css" rel="stylesheet" type="text/css">
   <script src="js/jquery-3.6.0.js"></script>
   <script src="js/scripts.js"></script>
-  <title>Programming Language Selector</title>
+  <title>Programming Language Suggester</title>
 </head>
 <body>
   <div class="container">
-
+    <div class="jumbotron">
+      <h1>Programming Language Suggester</h1>
+      <h5>A simple jQuery based survey to help find the programming language that is right for you... forever</h5>
+    </div>
+    <h3>Finding the right programming language can be difficult...</h3>
+    <p>There are so many out there! Please take a quick minute to answer the survey questions below and our "Command Office Oracle Luminosity" (a.k.a COOL) supercomputer will use a series of complex algorithms to determine the perfect language for you. Don't believe me? Well too bad. COOL knows all, and whether you like it or not, you will be forced to use the language that COOL selects for the entirety of your career as a developer. No pressure!</p>
+    <form>
+      <div class="form-group">
+        <label for="numberCombo">Enter your favorite combination of 1's and 0's:</label>
+        <input type="number" class="form-control" id="numberCombo" placeholder="001110001010100">
+      </div>
+      <div class="form-group">
+        <label for="trueFalseCool">True or False? I have already realized how much better my life will be after letting COOL make all of my future decisions for me</label>
+        <select class="form-control" id="trueFalseCool">
+          <option value="trueCool">True</option>
+          <option value="alsoTrueCool">Also True</option>
+        </select>        
+      </div>
+      <div class="form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1">By checking this box, I agree to release all personal data to COOL, thereby relinquishing my soul to my new overlord.</label>
+      </div>
+      <button type="submit" class="btn btn-dark">Submit... to the almighty power of COOL</button>
+    </form>
   </div> 
 </body>
 </html>
