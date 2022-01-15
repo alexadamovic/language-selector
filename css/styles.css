@@ -4,9 +4,11 @@
   background-color: rgb(255, 212, 95);
   border: solid;
   margin-top: 2em;
-  padding-top: 2em;
   margin-bottom: 2em;
+  padding-top: 2em;
   padding-bottom: 2em;
+  padding-left: 1em;
+  padding-right: 1em;
 }
 
 .jumbotron {
@@ -25,9 +27,19 @@ figcaption {
   margin: 0.7em;
 }
 
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .bigfont {
   font-size: 1.3em;
   font-weight: bolder;
+}
+
+.rare {
+  color: rgb(235, 18, 255);  
 }
 
 body {

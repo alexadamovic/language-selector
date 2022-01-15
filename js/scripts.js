@@ -10,7 +10,7 @@ $(document).ready(function(){
 
     $(".survey-result").fadeOut();
 
-    if (numberCombo <= 1000) {
+    if (numberCombo <= 10000) {
       $(".language-result-circus").fadeIn();
     } else if (licks >= 1000000 ) {
       $(".language-result-broke").fadeIn();
@@ -20,7 +20,6 @@ $(document).ready(function(){
       $(".language-result-ruby").fadeIn();
     } else {
       $(".language-result-python").fadeIn();
-    }
-  
+    }  
   });
 });
