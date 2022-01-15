@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Aldrich&family=Audiowide&family=Geo:ital@1&family=Major+Mono+Display&family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&family=Audiowide&family=Geo:ital@1&family=Major+Mono+Display&family=Rubik+Beastly&family=Russo+One&display=swap');
 
 .container {
   background-color: rgb(255, 212, 95);
@@ -9,6 +9,13 @@
   padding-bottom: 2em;
   padding-left: 1em;
   padding-right: 1em;
+}
+
+img {
+  width: 100%;
+  border-radius: 5%;
+  box-sizing: border-box;
+  border: solid 5px;
 }
 
 .jumbotron {
@@ -56,7 +63,7 @@ form {
 
 h1 {
   font-family: 'Russo One';
-  font-size: 3em;
+  font-size: 3.2em;
   text-decoration: underline;
   text-align: center;
   background-color: rgb(245, 153, 157);
@@ -79,6 +86,17 @@ h3 {
   font-size: 1.5em;
   text-align: center;
   background-color: rgb(245, 153, 157);
+  padding: 0.5em;
+  border: solid ;
+  margin: 0.5em;
+}
+
+h4 {
+  font-family: 'Rubik Beastly';
+  font-size: 2.5em;
+  text-align: center;
+  color: red;
+  background-color: rgb(0, 0, 0);
   padding: 0.5em;
   border: solid ;
   margin: 0.5em;
@@ -113,11 +131,4 @@ h5 {
 
 .sacrifice {
   display: none;
-}
-
-img {
-  width: 100%;
-  border-radius: 5%;
-  box-sizing: border-box;
-  border: solid 5px;
 }
