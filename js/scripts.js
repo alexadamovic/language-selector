@@ -16,10 +16,15 @@ $(document).ready(function(){
       $(".language-result-broke").fadeIn();
     } else if (millionaire === "fifty" ) {
       $(".language-result-java").fadeIn();
+      $(".sacrifice").fadeIn();
     } else if (trueFalseCool === "alsoTrueCool" && millionaire === "phone") {
       $(".language-result-ruby").fadeIn();
+      $(".sacrifice").fadeIn();
     } else {
       $(".language-result-python").fadeIn();
-    }  
+      $(".sacrifice").fadeIn();
+    }
+    
+    $(".sacrificeObject").text(offering);
   });
 });

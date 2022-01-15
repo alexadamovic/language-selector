@@ -111,6 +111,10 @@ h5 {
   display: none;
 }
 
+.sacrifice {
+  display: none;
+}
+
 img {
   width: 100%;
   border-radius: 5%;
